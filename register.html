@@ -9,19 +9,24 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
   <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-   
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-    <!-- Theme Style -->
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+      <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     
     <header role="banner">
      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a style="font-size: 30px" class="navbar-brand absolute" href="index.html">Go Test</a>
+          <a style="font-size: 30px" class="navbar-brand absolute" href="login2.php">Go Test</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,27 +34,21 @@
           <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a style="font-size: 25px" class="nav-link active" href="index.html">Home</a>
+                <a style="font-size: 25px" class="nav-link active" href="index.html"></a>
               </li>
              
               <li class="nav-item">
-                <a style="font-size: 25px"class="nav-link" href="Assessments.html">Assessments</a>
-              </li>
-              <li class="nav-item">
-                <a style="font-size: 25px"class="nav-link" href="LearningHistory.html">Learning History</a>
-              </li>
-              <li class="nav-item">
-                <a style="font-size: 25px"class="nav-link" href="Profile.html">Profile</a>
+                <a style="font-size: 25px"class="nav-link" href="Assessments.html"></a>
               </li>
             </ul>
             <ul class="navbar-nav absolute-right">
               <li>
-                <a style="font-size: 25px" href="login.html">Login</a> / <a style="font-size: 25px" href="register.html">Register</a>
+                <a style="font-size: 25px" href="login2.php">Login</a> / <a style="font-size: 25px" href="register.html">Register</a>
               </li>
             </ul>
   
-          </div>
-        </div>
+          </div
+>        </div>
       </nav>
     </header>
     <!-- END header -->
@@ -76,33 +75,31 @@
           <div class="col-md-7">
             <div class="form-wrap">
               <h2 class="mb-5">Register new account</h2>
-              <form action="#" method="post">
-                  
-                  <div class="row">
+              <form action="registration.php" method="POST">
+
+                   <div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name">Email Address</label>
-                      <input type="text" id="name" class="form-control py-2">
+                      <label for="name">Full Name</label>
+                      <input type="text" name="name" class="form-control py-2" required>
                     </div>
                   </div>
                   
                   <div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name">Full Name</label>
-                      <input type="text" id="name" class="form-control py-2">
+                      <label for="name">Username</label>
+                      <input type="text" name="username" class="form-control py-2" required>
                     </div>
                   </div><div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name">Password</label>
-                      <input type="password" id="name" class="form-control py-2 ">
+                      <label for="name">Email Address</label>
+                      <input type="text" name="email" class="form-control py-2 " required>
                     </div>
                   </div>
-                  <div class="row mb-5">
-                    <div class="col-md-12 form-group">
-                      <label for="name">Re-type Password</label>
-                      <input type="password" id="name" class="form-control py-2">
+                <div class="col-md-12 form-group">
+                <label for="name">Passwords</label>
+                      <input type="password" name="password" class="form-control py-2 " required>
                     </div>
                   </div>
-                  
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <input type="submit" value="Register" class="btn btn-primary px-5 py-2">
@@ -169,9 +166,15 @@
     
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>    
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
     <script src="js/main.js"></script>
     </body>
     
